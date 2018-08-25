@@ -14,9 +14,11 @@ import { SuccessalertComponent } from './successalert/successalert.component';
     ServersComponent,
     SuccessalertComponent,
     WarningalertComponent,
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
